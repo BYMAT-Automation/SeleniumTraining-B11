@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+
+  <listeners>
+    <listener class-name="listeners.Listeners_B11" />
+  </listeners>
+
+  <test thread-count="5" name="Fund Transfer">
+    <classes>
+      <class name="testCases.LoginWithRegisteredUser"/>
+      <class name="testCases.LoginWithRegisteredUser2"/>
+      <class name="testCases.CreateAnAccountToMyStore2"/>
+      <class name="testCases.CreateAnAccountToMyStore3"/>
+      <class name="testCases.CreateAnAccountToMyStore4"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

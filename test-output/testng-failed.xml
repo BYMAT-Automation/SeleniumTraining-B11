@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <listeners>
+    <listener class-name="listeners.Listeners_B11"/>
+  </listeners>
+  <test name="Fund Transfer(failed)">
+    <classes>
+      <class name="testCases.LoginWithRegisteredUser">
+        <methods>
+          <include name="isSkip"/>
+          <include name="loginWithRegisteredUser" invocation-numbers="0"/>
+          <include name="generateReport"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- testCases.LoginWithRegisteredUser -->
+      <class name="testCases.CreateAnAccountToMyStore2">
+        <methods>
+          <include name="createAnAccountToMyStore2" invocation-numbers="0"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- testCases.CreateAnAccountToMyStore2 -->
+      <class name="testCases.LoginWithRegisteredUser2">
+        <methods>
+          <include name="loginWithRegisteredUser2" invocation-numbers="0"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- testCases.LoginWithRegisteredUser2 -->
+      <class name="testCases.CreateAnAccountToMyStore3">
+        <methods>
+          <include name="isSkip"/>
+          <include name="createAnAccountToMyStore3" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.CreateAnAccountToMyStore3 -->
+      <class name="testCases.CreateAnAccountToMyStore4">
+        <methods>
+          <include name="isSkip"/>
+          <include name="createAnAccountToMyStore4" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.CreateAnAccountToMyStore4 -->
+    </classes>
+  </test> <!-- Fund Transfer(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->
