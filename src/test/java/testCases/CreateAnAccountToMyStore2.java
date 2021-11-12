@@ -42,6 +42,9 @@ public class CreateAnAccountToMyStore2 extends TestBase_B11 {
 		CommonMethods.enterTextIntoTextBoxFromTestDataSheet("Last_Name", htData.get("Last_Name"), "Last Name");
 		
 		CommonMethods.enterTextIntoTextBoxFromTestDataSheet("password", htData.get("Password"), "Password");
+		
+		CommonMethods.enterTextIntoTextBoxFromTestDataSheet("password1", htData.get("Password1"), "Password1");
+		CommonMethods.enterTextIntoTextBoxFromTestDataSheet("password2", htData.get("Password2"), "Password2");
 			
 	}
 
