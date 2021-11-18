@@ -9,7 +9,6 @@
       <class name="testCases.LoginWithRegisteredUser">
         <methods>
           <include name="isSkip"/>
-          <include name="loginWithRegisteredUser" invocation-numbers="0"/>
           <include name="generateReport"/>
           <include name="initialization"/>
         </methods>
@@ -22,7 +21,6 @@
       </class> <!-- testCases.CreateAnAccountToMyStore2 -->
       <class name="testCases.LoginWithRegisteredUser2">
         <methods>
-          <include name="loginWithRegisteredUser2" invocation-numbers="0"/>
           <include name="isSkip"/>
         </methods>
       </class> <!-- testCases.LoginWithRegisteredUser2 -->

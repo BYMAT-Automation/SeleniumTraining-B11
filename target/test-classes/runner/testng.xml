@@ -13,6 +13,7 @@
       <class name="testCases.CreateAnAccountToMyStore2"/>
       <class name="testCases.CreateAnAccountToMyStore3"/>
       <class name="testCases.CreateAnAccountToMyStore4"/> 
+       <class name="testCases.EndToEndTestCase"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

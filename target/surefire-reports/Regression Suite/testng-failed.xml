@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Regression Suite]">
+  <listeners>
+    <listener class-name="listeners.Listeners_B11"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Fund Transfer(failed)">
+    <classes>
+      <class name="testCases.EndToEndTestCase">
+        <methods>
+          <include name="generateReport"/>
+          <include name="endToEndTestCase"/>
+          <include name="initialization"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- testCases.EndToEndTestCase -->
+      <class name="testCases.CreateAnAccountToMyStore2">
+        <methods>
+          <include name="generateReport"/>
+          <include name="initialization"/>
+          <include name="createAnAccountToMyStore2"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- testCases.CreateAnAccountToMyStore2 -->
+      <class name="testCases.CreateAnAccountToMyStore4">
+        <methods>
+          <include name="isSkip"/>
+          <include name="generateReport"/>
+          <include name="createAnAccountToMyStore4"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- testCases.CreateAnAccountToMyStore4 -->
+      <class name="testCases.LoginWithRegisteredUser2">
+        <methods>
+          <include name="loginWithRegisteredUser2" invocation-numbers="0"/>
+          <include name="generateReport"/>
+          <include name="initialization"/>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- testCases.LoginWithRegisteredUser2 -->
+      <class name="testCases.CreateAnAccountToMyStore3">
+        <methods>
+          <include name="isSkip"/>
+          <include name="generateReport"/>
+          <include name="createAnAccountToMyStore3"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- testCases.CreateAnAccountToMyStore3 -->
+    </classes>
+  </test> <!-- Fund Transfer(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->
